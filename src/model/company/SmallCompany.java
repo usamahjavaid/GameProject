@@ -10,4 +10,9 @@ public class SmallCompany implements Company {
     @Override
     public void updateBudgetConstant() {
     }
+
+    @Override
+    public void talk() {
+        System.out.println("I am a lesser company");
+    }
 }

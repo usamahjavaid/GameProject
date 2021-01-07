@@ -10,4 +10,9 @@ public class YourMom implements Company{
     @Override
     public void updateBudgetConstant() {
     }
+
+    @Override
+    public void talk() {
+        System.out.println("Why am i even here???");
+    }
 }
