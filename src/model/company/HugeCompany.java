@@ -9,9 +9,12 @@ public class HugeCompany implements Company{
 
     @Override
     public void updateBudgetConstant() {
+
     }
     @Override
     public void updateBudget() {
 
     }
+
+    //branch
 }
