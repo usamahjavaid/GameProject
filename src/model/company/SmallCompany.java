@@ -15,4 +15,9 @@ public class SmallCompany implements Company {
     public void talk() {
         System.out.println("I am a lesser company");
     }
+
+    @Override
+    public void updateBudget() {
+
+    }
 }

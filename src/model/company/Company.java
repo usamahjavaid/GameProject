@@ -6,4 +6,6 @@ public interface Company {
     void updateBudgetConstant();
 
     void talk();
+
+    void updateBudget();
 }

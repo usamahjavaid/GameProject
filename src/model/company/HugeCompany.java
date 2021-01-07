@@ -15,4 +15,9 @@ public class HugeCompany implements Company{
     public void talk() {
         System.out.println("I AM HUGE(MY DICK I MEAN)");
     }
+
+    @Override
+    public void updateBudget() {
+
+    }
 }

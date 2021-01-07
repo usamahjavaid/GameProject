@@ -15,4 +15,9 @@ public class YourMom implements Company{
     public void talk() {
         System.out.println("Why am i even here???");
     }
+
+    @Override
+    public void updateBudget() {
+
+    }
 }
