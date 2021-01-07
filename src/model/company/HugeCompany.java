@@ -10,12 +10,6 @@ public class HugeCompany implements Company{
     @Override
     public void updateBudgetConstant() {
     }
-
-    @Override
-    public void talk() {
-        System.out.println("I AM HUGE(MY DICK I MEAN)");
-    }
-
     @Override
     public void updateBudget() {
 

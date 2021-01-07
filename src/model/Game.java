@@ -2,7 +2,6 @@ package model;
 
 import model.company.Company;
 import model.company.CompanyFactory;
-import model.company.MediumCompany;
 
 import static java.lang.Thread.sleep;
 
@@ -19,6 +18,7 @@ public class Game implements Runnable {
     }
 
     private void timer() throws InterruptedException {
+
         Company mediumCompany = companyFactory.getCompany("MEDIUM");
 
         while (true){
@@ -29,6 +29,7 @@ public class Game implements Runnable {
     }
 
     public static void main(String[] args) {
+
         Game game = new Game();
         game.run();
     }

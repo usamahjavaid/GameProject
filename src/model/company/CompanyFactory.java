@@ -26,9 +26,6 @@ public class CompanyFactory {
         CompanyFactory companyFactory = new CompanyFactory();
         Company smallCompany = companyFactory.getCompany("SMALL");
         Company mediumCompany = companyFactory.getCompany("MEDIUM");
-
-        smallCompany.talk();
-        mediumCompany.talk();
     }
 }
 

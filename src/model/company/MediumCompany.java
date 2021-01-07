@@ -2,10 +2,10 @@ package model.company;
 
 public class MediumCompany implements Company{
 
-    private Double budgetConstant;
-    private Double budget;
-    private int IQ;
-    private Double reputation;
+    private Double budgetConstant = 0.1;
+    private Double budget = 1000.0;
+    private int IQ = 110;
+    private Double reputation = 2.5;
 
     @Override
     public void updateBudgetConstant() {
@@ -15,19 +15,6 @@ public class MediumCompany implements Company{
     public void updateBudget() {
         this.budget = budget + 1;
     }
-
-    public MediumCompany() {
-        this.budgetConstant = 0.1;
-        this.budget = 1000000.0;
-        this.IQ = 110;
-        this.reputation = 3.0;
-    }
-
-    @Override
-    public void talk() {
-        System.out.println("I AM MEADIUM");
-    }
-
 
     @Override
     public java.lang.String toString() {
